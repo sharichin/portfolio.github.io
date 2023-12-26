@@ -1,6 +1,11 @@
-title: Shari Chin Portfolio
+title: Shari Chin 
 logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
+description: >
+  Data Analyst <br>
+  Creative Problem Solver <br>
+  Results Driven <br><br>
+  <a href="https://www.linkedin.com/in/sharichin/">View My LinkedIn Profile</a>  
+  
 show_downloads: true
 google_analytics:
 remote_theme: pages-themes/minimal@v0.2.0
