@@ -46,7 +46,7 @@ The main questions I set out to answer were:
 #### The Analysis + Commentary
 To answer my first question on what schools were struggling the most, I chose to summarize the data and find the bottom 10 high schools. By using the average graduation percent rate, I created a horizontal bar chart to show the relationship between the average percent of students graduating from each high school on the x-axis and the school name on the y-axis. This resulted in the following chart showing Springfield Public Day High School with an average of 8.70 percent of students graduating high school compared to South Shore Charter Public School with a graduating average of 100 percent.
 
-![Branching](images/Low Grad Percent Rate Bar Chart.png)
+![Branching](https://github.com/sharichin/sharichin.github.io/blob/27a3c16885a35059f71ef74c229056c7ccefd5ba/images/Low%20Grad%20Percent%20Rate%20Bar%20Chart.png)
 
 After I grouped the data and found the bottom 10 high schools struggling the most with getting students to graduate, I explored the data further to find if class size could help increase graduation and college attendance rates. 
 
