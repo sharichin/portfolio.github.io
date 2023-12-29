@@ -8,7 +8,7 @@ layout: default
 ### Learn About My Projects
 
 #### [Internal Blog Post Project](/tableau_nba_project.md)
-<img src="images/Massachusetts Education Overview.png"/>
+<img src="images/22-23 NBA Team Analysis Dashboard.png"/>
 For this project, I analyzed basketball players' individual and team performance from the 2022-2023 NBA Season. Since the data included both player and team statistics, I explored the details to identify areas players and teams could potentially improve in. Also in my analysis, I chose to highlight 4 teams (MIA, ATL, POR, GSW) to showcase teams from the East and West coast in cities I've had the opportunity to experience and live in.
 
 #### [Internal Blog Post Project](/education_project.md)
