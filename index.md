@@ -25,7 +25,7 @@ For this project, I explored what a good analytics PowerPoint presentation shoul
 
 ---
 #### [Linked File Project](/files/Python Manufacturing Presentation.pdf)
-<img src="images/Python Mining Cover Page.png"/>
+<img src="images/Mining Github Cover.png"/>
 In this project, I provided analysis using mineral ore flotation testing for a manufacturing mining company. I was asked to investigate an incident that occurred June 1, 2017 by observing the changes in mineral concentration hourly throughout the day. To do this, I analyzed the following  4 main variables: % Iron Concentrate, % Silica Concentrate, Ore pulp pH, and Flotation Column 05 Level. 
 
 ---
