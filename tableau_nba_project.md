@@ -48,7 +48,7 @@ _What position is most efficient at shooting 3-pointers for each team?_
 
 To answer the question above, I created a heatmap to show the teams with the highest 3-point average split by positions. The heat map shows 5 of the 30 teams (MEM, LAC, PHI, DEN, and MIL) to have 40.3% to 42.6% shooting average for the shooting guard position. The next best position would be Center position showing 3 teams with an average 3-point shot from 41.1% to 46.2%. As a result, the shooting guard position is the most efficient position at shooting 3-point shots for each team. 
 
-<img src="images/Avg Class Size vs Attending College Scatter Plot.png"/>
+<img src="images/NBA Scatter Plot.png"/>
 _Does the number of minutes played relate to the total number of points made in a season?_
 
 I explored the data further to find if there was a relationship between the number of minutes a player played in the season and the total number of points scored. To do this, I created a scatter plot and drew a trend line using linear regression. Because I knew the total number of points started at the beginning of the season when the first game was played, I forced the y-intercept regression line to start at 0; so, the estimated value of the points when no minutes were played would be 0.
