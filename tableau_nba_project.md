@@ -45,7 +45,7 @@ Using Tableau, I analyzed player and team statistics to identify areas players a
 #### The Analysis + Commentary
 _What position is most efficient at shooting 3-pointers for each team?_
 
-<img src="images/Low Grad Percent Rate Bar Chart.png" alt="Bar Chart showing low graduation rate" width="700" height="700">
+<img src="images/NBA Heatmap.png">
 
 To answer the question above, I created a heatmap to show the teams with the highest 3-point average split by positions. The heat map shows 5 of the 30 teams (MEM, LAC, PHI, DEN, and MIL) to have 40.3% to 42.6% shooting average for the shooting guard position. The next best position would be Center position showing 3 teams with an average 3-point shot from 41.1% to 46.2%. As a result, the shooting guard position is the most efficient position at shooting 3-point shots for each team. 
 
