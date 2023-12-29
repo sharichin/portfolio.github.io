@@ -52,7 +52,7 @@ I used the following queries to answer the question above. The results showed 4.
 <img src="images/SQL Healthcare histogram.png">
 ---
 <img src="images/SQL Healthcare 02.png"/>
-<img src="images/SQL Healthcare 02.png"/>
+<img src="images/SQL Healthcare 02 Results.png"/>
 _What are the 5 most common medical specialties?_
 
 For this question, I used queries focused on finding the number of unique medical specialties the hospital performed and the specialties performed the most within the 130 hospitals and integrated delivery networks. Results showed there are 73 different medical specialties with the 5 most common medical specialties associated with unknown, internal medicine, emergency/trauma, family practice/ general medicine, and cardiology.
