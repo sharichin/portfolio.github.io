@@ -51,28 +51,30 @@ I used the following queries to answer the question above. The results showed 4.
 
 <img src="images/SQL Healthcare histogram.png">
 ---
+_What are the 5 most common medical specialties?_
+
 <img src="images/SQL Healthcare 02.png"/>
 <img src="images/SQL Healthcare 02 Results.png"/>
-_What are the 5 most common medical specialties?_
 
 For this question, I used queries focused on finding the number of unique medical specialties the hospital performed and the specialties performed the most within the 130 hospitals and integrated delivery networks. Results showed there are 73 different medical specialties with the 5 most common medical specialties associated with unknown, internal medicine, emergency/trauma, family practice/ general medicine, and cardiology.
 
-<img src="images/Descending Bar Chart.png"/>
 _Which medical specialties have the highest number of procedures?_
+
+<img src=" "/>
 
 Because the queries used in question 2 focused on the number of medical specialties overall, I dived deeper into these initial queries to find the average number of procedures performed under the 5 most common medical specialties. The following query resulted in Proctology showing the medical specialty with the highest average number of procedures however the count showed 1, which may indicate an outlier. To account for outliers within the dataset, I did further analysis using the Having function. 
 
 The Having function was used to filter for the medical specialty that had more than 50 patients and an average procedure of 2.5 or more. Now the results show Surgery-Thoracic, Surgery-Cardiovascular/Thoracic, Radiologist, Cardiology and Surgery-Vascular as the 5 medical specialties with the highest average number of procedures. 
 
 _Does the number of procedures a patient receives affect the number of days a patient stays in the hospital?_
-<img src="images/Tree map.png"/>
+<img src=" "/>
 
 Because 1 patient can have multiple lab procedures, I categorized the patient into the least number of procedures as possible; even doing the avg works; using binomial distribution principles and the central limit theorem we can make the case to split the patient averages into bins with values ranging from few, average and many.
 It looks there is a correlation between these; the longer someone is at the hospital the more lab procedures they have, or vice-versa.
 
 
 _none_
-<img src="images/Bubble Plot.png"/>
+<img src=" "/>
 
 none. 
 
