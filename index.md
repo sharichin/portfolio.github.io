@@ -1,12 +1,19 @@
+---
+layout: default
+---
 # Welcome to My Portfolio
 
 ---
 
 ### Learn About My Projects
 
+#### [Internal Blog Post Project](/tableau_nba_project.md)
+<img src="images/Massachusetts Education Overview.png"/>
+For this project, I analyzed basketball players' individual and team performance from the 2022-2023 NBA Season. Since the data included both player and team statistics, I explored the details to identify areas players and teams could potentially improve in. Also in my analysis, I chose to highlight 4 teams (MIA, ATL, POR, GSW) to showcase teams from the East and West coast in cities I've had the opportunity to experience and live in.
+
 #### [Internal Blog Post Project](/education_project.md)
 <img src="images/Massachusetts Education Overview.png"/>
-In this case study from Data Analytics Accelerator, I was prompted to analyze the state of Massachusetts education data. The main focuses were:
+In this case study from the Data Analytics Accelerator, I was prompted to analyze the state of Massachusetts education data. The main focuses were:
 What schools are struggling the most?
 How does class size affect college admission?
 What are the top math schools in the state? 
