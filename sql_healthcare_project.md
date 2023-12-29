@@ -49,6 +49,8 @@ _What does the distribution of time a patient spends in the hospital look like? 
 
 I used the following queries to answer the question above. The results showed 4.4 days as the average time a patient spends in the hospital and further analysis showed the majority of patients (85%) stayed in the hospital for less than 7 days. SQL is typically not the best way to show visualizations, but by using the RPAD function and division this query can be depicted showing patients represented as “stars” or asterisks in the histogram plotted below.  
 
+<img src="images/SQL Healthcare histogram.png">
+---
 <img src="images/NBA Scatter Plot.png"/>
 _What are the 5 most common medical specialties?_
 
