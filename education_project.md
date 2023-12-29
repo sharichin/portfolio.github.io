@@ -4,10 +4,6 @@
 ---
 <!-- JS file to enable the JavaScript API. You can point at the
   version on public.tableau.com, online.tableau.com, or your on-prem Server -->
-<script src="https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/22-23NBATeamAnalysisDashboard?:language=en-US&:display_count=n&:origin=viz_share_link"></script>
-...
-<!-- Empty div where the viz will be placed -->
-<div id="tableauViz"></div>
 
 #### Introduction
 For this project, I focused on analyzing education information for the state of Massachusetts from the perspective of an education Superintendent. I used a data set compiled from multiple reports taken from the Massachusetts Department of Education website to build a report showing the status of the school system. 
