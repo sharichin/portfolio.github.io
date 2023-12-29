@@ -55,7 +55,7 @@ I explored the data further to find if there was a relationship between the numb
 
 The trendline showed the R-squared value to be 0.912 and the slope to be 0.497. This indicates that 91.2% of the variation in the total number of points made in the season is related to the number of minutes played in the season. The slope also indicates that for each additional minute played the number of points is expected to increase by approximately 49.7%. It was interesting to see this analysis. The data shows a strong positive relationship between the number of minutes played and the total number of points made in a season. Further analysis would be needed to find other relationships and factors that contribute to a player’s total points scored. 
 
-<img src="images/Avg Passing 4th Grade Math Line Chart.png"/>
+<img src="images/Descending Bar Chart.png"/>
 _What were the total points for each team and how much did each player contribute?_
 
 To find this, I created a stacked bar chart showing the total number of points per team stacked by players’ total points within the team in descending order from highest to lowest. SAC for instance has 9,898 points which is 145 points more than GSW, the second-best team. The gradual narrowing of the column size shows the player’s points within the total points scored by the team. BOS’s Jayson Tatum has the most points scored out of Boston and overall with 2,225 points in the season.  
