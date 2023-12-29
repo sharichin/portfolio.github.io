@@ -10,7 +10,7 @@ I enjoy playing and watching soccer and track, so I chose to add a sports projec
 #### Objective
 I've been asked to provide statistics on player's performance and the teams they play on.
 
-Here are a few questions I set out to answer:
+##### Here are a few questions I set out to answer:
 1 - What position is most efficient at shooting 3-pointers for each team?
 2 - Does the number of minutes played relate to the total number of points made in a season?
 3 - What were the total points for each team and how much did each player contribute? Portland?
@@ -18,7 +18,7 @@ Here are a few questions I set out to answer:
 5 - Use a player's points assists, and total rebounds to find how individual players performed during the season.
 
 
-#### Key Insights
+##### Key Insights
 1 - Shooting guard is the most efficient position at shooting 3-pointers for each team, with 5 of 30 teams ranking in the top quartile.
 2 - 91% of the variation in the number of points a player has in the season is related to the total number of minutes played.
 3 - SAC has 9,898 points which is 145 points more than GSW, the second-best team.
@@ -28,7 +28,7 @@ Here are a few questions I set out to answer:
 #### The Data
 Using Tableau, I analyzed player and team statistics to identify areas players and teams could improve in from the beginning of the season, October 2022 to the championship game, April 2023. The data contains 30 teams with 5 different positions and 539 different players. Although 31 attributes were included in the data dictionary, only the following 9 were used in this analysis.
 
-The data included the following:
+### The data included the following:
 •	Tm - Team
 •	Pos - Position
 •	Player Name
