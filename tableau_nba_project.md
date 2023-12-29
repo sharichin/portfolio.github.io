@@ -21,26 +21,25 @@ I've been asked to provide statistics on player's performance and the teams they
 
 ##### Key Insights
 
-1 - Shooting guard is the most efficient position at shooting 3-pointers for each team, with 5 of 30 teams ranking in the top quartile.
-2 - 91% of the variation in the number of points a player has in the season is related to the total number of minutes played.
-3 - SAC has 9,898 points which is 145 points more than GSW, the second-best team.
-4 – Point guard Russel Westbrook has 2.5 times more assists than the shooting guard position’s top number of assist.
-5 - Atlanta’s Trae Young is a clear outlier with 741 assists, 1914 points and 217 rebounds.
+1. Shooting guard is the most efficient position at shooting 3-pointers for each team, with 5 of 30 teams ranking in the top quartile.
+2. 91% of the variation in the number of points a player has in the season is related to the total number of minutes played.
+3. SAC has 9,898 points which is 145 points more than GSW, the second-best team.
+4. Point guard Russel Westbrook has 2.5 times more assists than the shooting guard position’s top number of assist.
+5. Atlanta’s Trae Young is a clear outlier with 741 assists, 1914 points and 217 rebounds.
 
 #### The Data
 Using Tableau, I analyzed player and team statistics to identify areas players and teams could improve in from the beginning of the season, October 2022 to the championship game, April 2023. The data contains 30 teams with 5 different positions and 539 different players. Although 31 attributes were included in the data dictionary, only the following 9 were used in this analysis.
 
 ### The data included the following:
-
-• Tm - Team
-•	Pos - Position
-•	Player Name
-•	MP - Minutes Played
-•	3P - 3-Pointers Made
-•	3PA - 3-Pointers Made
-•	TRB - Total Rebounds
-•	AST - Assists
-•	PTS - Total Points Scored
+* Tm - Team
+* Pos - Position
+* Player Name
+* MP - Minutes Played
+* 3P - 3-Pointers Made
+* 3PA - 3-Pointers Made
+* TRB - Total Rebounds
+* AST - Assists
+* PTS - Total Points Scored
 
 #### The Analysis + Commentary
 _What position is most efficient at shooting 3-pointers for each team?_
