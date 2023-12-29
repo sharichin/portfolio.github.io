@@ -2,8 +2,6 @@
 
 ### How does class size affect college admission?
 ---
-<!-- JS file to enable the JavaScript API. You can point at the
-  version on public.tableau.com, online.tableau.com, or your on-prem Server -->
 
 #### Introduction
 For this project, I focused on analyzing education information for the state of Massachusetts from the perspective of an education Superintendent. I used a data set compiled from multiple reports taken from the Massachusetts Department of Education website to build a report showing the status of the school system. 
