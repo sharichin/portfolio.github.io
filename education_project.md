@@ -2,7 +2,22 @@
 
 ### How does class size affect college admission?
 ---
-
+```js
+function initializeViz() {
+  // JS object that points at empty div in the html
+  var placeholderDiv = document.getElementById("tableauViz");
+  // URL of the viz to be embedded
+  var url = "https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/22-23NBATeamAnalysisDashboard?:language=en-US&:display_count=n&:origin=viz_share_link";
+  // An object that contains options specifying how to embed the viz
+  var options = {
+    width: '600px',
+    height: '600px',
+    hideTabs: true,
+    hideToolbar: true,
+  };
+  viz = new tableau.Viz(placeholderDiv, url, options);
+}
+```
 #### Introduction
 For this project, I focused on analyzing education information for the state of Massachusetts from the perspective of an education Superintendent. I used a data set compiled from multiple reports taken from the Massachusetts Department of Education website to build a report showing the status of the school system. 
 
