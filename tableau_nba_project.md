@@ -62,6 +62,7 @@ To find this, I created a stacked bar chart showing the total number of points p
 
 _What players had the most assists in every position?_
 <img src="images/Tree map.png"/>
+
 I chose to answer the question above by using a tree map showing the 5 different positions grouped into larger squares, and within the larger squares are players’ total number of assists. For the Point Guard position and overall positions, Russel Westbrook has 2.5 times more assists compared to the Shooting Guard position’s top number of assists. 
 
 _Use a player's points assists, and total rebounds to find how individual players performed during the season._
