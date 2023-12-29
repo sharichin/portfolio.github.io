@@ -20,7 +20,7 @@ What are the top math schools in the state?
 
 ---
 #### [Linked File Project](/files/iFood Doordash Portfolio Presentation 3.pdf)
-<img src="images/iFood Doordash cover image.png"/>
+<img src="images/IFood Github Cover.png"/>
 For this project, I explored what a good analytics PowerPoint presentation should entail. It has key insights, ties data to the business value and much more. 
 
 ---
