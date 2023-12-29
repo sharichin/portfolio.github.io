@@ -12,11 +12,11 @@ I've been asked to provide statistics on player's performance and the teams they
 
 ##### Here are a few questions I set out to answer:
 
-1 - What position is most efficient at shooting 3-pointers for each team?
-2 - Does the number of minutes played relate to the total number of points made in a season?
-3 - What were the total points for each team and how much did each player contribute? Portland?
-4 - What players had the most assists in every position?
-5 - Use a player's points assists, and total rebounds to find how individual players performed during the season.
+1. What position is most efficient at shooting 3-pointers for each team?
+2. Does the number of minutes played relate to the total number of points made in a season?
+3. What were the total points for each team and how much did each player contribute? Portland?
+4. What players had the most assists in every position?
+5. Use a player's points assists, and total rebounds to find how individual players performed during the season.
 
 
 ##### Key Insights
