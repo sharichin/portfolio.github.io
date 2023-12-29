@@ -11,12 +11,12 @@ layout: default
 <img src="images/NBA Github Cover.png"/>
 For this project, I analyzed basketball players' individual and team performance from the 2022-2023 NBA Season. Since the data included both player and team statistics, I explored the details to identify areas players and teams could potentially improve in. Also in my analysis, I chose to highlight 4 teams (MIA, ATL, POR, GSW) to showcase teams from the East and West coast in cities I've had the opportunity to experience and live in.
 
+---
 #### [Internal Blog Post Project](/sql_healthcare_project.md)
-<img src="images/Github Mass Cover.png"/>
+<img src="images/SQL Healthcare Github Cover.png"/>
 In this project, I chose to practice SQL querying from multiple sources to provide analysis of 1999-2008 hospital care and patient information from 130 hosipitals. Since there is a fine line between balancing business productivity and customer service, I explored the data to understand why managing patient turnover in hospitals beds is an important part of business operations. 
 
-
-
+---
 #### [Internal Blog Post Project](/education_project.md)
 <img src="images/Github Mass Cover.png"/>
 In this case study from the Data Analytics Accelerator, I was prompted to analyze the state of Massachusetts education data. The main focuses were:
