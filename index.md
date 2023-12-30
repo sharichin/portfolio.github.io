@@ -14,7 +14,7 @@ For this project, I analyzed basketball players' individual and team performance
 ---
 #### [Internal Blog Post Project](/sql_healthcare_project.md)
 <img src="images/SQL Healthcare Github Cover.png"/>
-In this project, I chose to practice SQL querying from multiple sources to provide analysis of 1999-2008 hospital care and patient information from 130 hosipitals. Since there is a fine line between balancing business productivity and customer service, I explored the data to understand why managing patient turnover in hospitals beds is an important part of business operations. 
+In this project, I chose to practice SQL querying from multiple sources to provide analysis of 1999-2008 hospital care and patient information from 130 hospitals. Since there is a fine line between balancing business productivity and customer service, I explored the data to understand why managing patient turnover in hospitals beds is an important part of business operations. 
 
 ---
 #### [Internal Blog Post Project](/education_project.md)
