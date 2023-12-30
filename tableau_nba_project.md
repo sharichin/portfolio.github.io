@@ -14,7 +14,7 @@ I've been asked to provide statistics on player's performance and the teams they
 
 1. What position is most efficient at shooting 3-pointers for each team?
 2. Does the number of minutes played relate to the total number of points made in a season?
-3. What were the total points for each team and how much did each player contribute? Portland?
+3. What were the total points for each team and how much did each player contribute?
 4. What players had the most assists in every position?
 5. Use a player's points assists, and total rebounds to find how individual players performed during the season.
 
@@ -28,7 +28,7 @@ I've been asked to provide statistics on player's performance and the teams they
 5. Atlanta’s Trae Young is a clear outlier with 741 assists, 1914 points and 217 rebounds.
 
 #### The Data
-Using Tableau, I analyzed player and team statistics to identify areas players and teams could improve in from the beginning of the season, October 2022 to the championship game, April 2023. The data contains 30 teams with 5 different positions and 539 different players. Although 31 attributes were included in the data dictionary, only the following 9 were used in this analysis.
+Using Tableau, I analyzed player and team statistics to identify areas players and teams could improve in from the start of the season, October 2022 to the championship game, April 2023. The data contains 30 teams with 5 different positions and 539 different players. Although 31 attributes were included in the data dictionary, only the following 9 were used in this analysis.
 
 ### The data included the following:
 * Tm - Team
