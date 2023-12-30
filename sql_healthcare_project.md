@@ -51,6 +51,7 @@ I used the following queries to answer the question above. The results showed 4.
 
 <img src="images/SQL Healthcare histogram.png">
 ---
+
 _What are the 5 most common medical specialties?_
 
 <img src="images/SQL Healthcare 02.png"/>
@@ -67,6 +68,7 @@ Because the queries used in question 2 focused on the number of medical specialt
 <img src="images/SQL Healthcare avg prod 04.png"/>
 
 ---
+
 <img src="images/SQL Healthcare avg having.png"/>
 
 The Having function was used to filter for the medical specialty that had more than 50 patients and an average procedure of 2.5 or more. Now the results show Surgery-Thoracic, Surgery-Cardiovascular/Thoracic, Radiologist, Cardiology and Surgery-Vascular as the 5 medical specialties with the highest average number of procedures. 
