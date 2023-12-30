@@ -16,7 +16,7 @@ I've been asked to provide information on player's performance and their teams.
 2. Does the number of minutes played relate to the total number of points made in a season?
 3. What were the total points for each team and how much did each player contribute?
 4. Which players had the most assists in every position?
-5. Use a player's total points, assists, and total rebounds to find how individual players performed during the season.
+5. Evaluate a player's performance throughout the season by examining their points, assists, and total rebounds.
 
 
 ##### Key Insights
