@@ -54,7 +54,7 @@ To answer the question above, I created a heatmap to show the teams with the hig
 
 [Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/ScatterPlot?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-_Are the number of minutes played relate to the total number of points made in a season?_
+_Are the number of minutes played related to the total number of points made in a season?_
 
 I explored the data further to find if there was a relationship between the number of minutes a player played in the season and the total number of points scored. To do this, I created a scatter plot and drew a trend line using linear regression. Because I knew the total number of points started at the beginning of the season when the first game was played, I forced the y-intercept regression line to start at 0; so, the estimated value of the points when no minutes were played would be 0.
 
