@@ -79,15 +79,15 @@ _Does the number of procedures a patient receives affect the number of days a pa
 
 To find the answer, I broke this question into two parts. I found the average number of days a patient stayed in the hospital and the number of lab procedures a patient had. Then I separated the averages into 3 bins ranging from few; to average and then many using the case when command to separate the averages. The following results show a correlation between the number of lab procedures and the number of days a patient stays in the hospital. The longer a patient stays in the hospital the more lab procedures they have, or vice-versa.
 
-<img src=" "/>
+<img src="images/SQL Healthcare avg patient.png"/>
 
 To answer the following question, I used the JOIN command to combine two tables together. The patient’s health information was provided in one table while the patient’s demographics were in another. Then I used the patient number, race, and the number of lab procedure attributes to find the average number of lab procedures for the total number of patients grouped by race. 
 
-<img src=" "/>
+<img src="images/SQL Healthcare Race query.png"/>
 
 _Does patient demographics like race influence the number of lab procedures needed?_
 
-<img src=" "/>
+<img src="images/SQL Healthcare Race qresults.png"/>
 
 The results indicate that, among the six identified racial categories, the average number of lab procedures is closely clustered, ranging from 40.9 to 44.1.
 
