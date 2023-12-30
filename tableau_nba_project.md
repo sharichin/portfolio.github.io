@@ -5,7 +5,7 @@
 
 
 #### Introduction
-I enjoy watching soccer and track so I thought it would be fun to include a sports analysis project in my portfolio. For this project, I analyzed basketball players' individual and team performance from the 2022-2023 NBA Season. Since the dataset included both player and team statistics, I explored the details to identify areas players and teams could potentially improve in. I highlighted 4 teams from both the east and west coast (Miami Heat, Atlanta Hawks, Portland Trail Blazers and San Francisco Golden State Warriors) which also happens to be cities I've lived in. 
+I enjoy watching soccer and track so I thought it would be fun to include a sports analysis project in my portfolio. For this project, I analyzed basketball players' individual and team performance statistics from the 2022-2023 NBA Season. I explored the information provided by the official stats partner of the NBA, [Sport Radar](https://www.basketball-reference.com/leagues/), to identify areas players and teams could improve in. I highlighted 4 teams from both the east and west coast (Miami Heat, Atlanta Hawks, Portland Trail Blazers and San Francisco Golden State Warriors) which also happens to be cities I've lived in. 
 
 #### Objective
 I've been asked to provide information on player's performance and their teams.
