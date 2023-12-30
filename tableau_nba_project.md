@@ -5,7 +5,7 @@
 
 
 #### Introduction
-I enjoy watching soccer and track so I thought it would be fun to include a sports analysis project in my portfolio. For this project, I analyzed basketball players' individual and team performance from the 2022-2023 NBA Season. Since the data included both player and team statistics, I explored the details to identify areas players and teams could potentially improve in. Also in my analysis, I chose to highlight 4 teams (MIA, ATL, POR, GSW) to showcase teams from the East and West coast in cities I've had the opportunity to experience and live in. 
+I enjoy watching soccer and track so I thought it would be fun to include a sports analysis project in my portfolio. For this project, I analyzed basketball players' individual and team performance from the 2022-2023 NBA Season. Since the dataset included both player and team statistics, I explored the details to identify areas players and teams could potentially improve in. Also in my analysis, I chose to highlight 4 teams (MIA, ATL, POR, GSW) to showcase teams from the East and West coast in cities I've had the opportunity to experience and live in. 
 
 #### Objective
 I've been asked to provide statistics on player's performance and the teams they play on.
