@@ -60,7 +60,7 @@ For this question, I used queries focused on finding the number of unique medica
 
 _Which medical specialties have the highest number of procedures?_
 
-<img src=" "/>
+<img src="images/SQL Healthcare avg prod.png"/>
 
 Because the queries used in question 2 focused on the number of medical specialties overall, I dived deeper into these initial queries to find the average number of procedures performed under the 5 most common medical specialties. The following query resulted in Proctology showing the medical specialty with the highest average number of procedures however the count showed 1, which may indicate an outlier. To account for outliers within the dataset, I did further analysis using the Having function. 
 
