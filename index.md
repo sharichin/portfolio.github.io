@@ -10,7 +10,7 @@ layout: default
 #### [Internal Blog Post Project](/tableau_nba_project.md)
 <img src="images/NBA Github Cover.png"/>
 For this project, I analyzed basketball players' individual and team performance from the 2022-2023 NBA Season. Since the data included both player and team statistics, I explored the details to identify areas players and teams could potentially improve in. Also in my analysis, I chose to highlight 4 teams (Miami Heat, Atlanta Hawks, Portland Trail Blazers and San Francisco Golden State Warriors) to showcase teams from the East and West coast in cities I've had the opportunity to experience and live in.
-[Click here to use dashboard](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/22-23NBATeamAnalysisDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+[Click here to use dashboard](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/22-23NBATeamAnalysisDashboard?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 
 ---
