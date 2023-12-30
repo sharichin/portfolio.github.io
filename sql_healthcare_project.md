@@ -24,8 +24,8 @@ I've been asked to provide various lists using patient statistics.
 1. The average number of days a patient spends in the hospital is 4.4 days, and 85% of patients spend less than 7 days in the hospital.
 2. There are 73 different medical specialties with the 5 most common medical specialties associated with unknown, internal medicine, emergency/trauma, family practice/ general medicine, and cardiology.
 3. Surgery-thoracic, Surgery-Cardiovascular/Thoracic, Radiologist, Cardiology, and Surgery-Vascular as the 5 medical specialties with the highest average number of procedures. 
-4. 
-5.
+4. The more lab procedures a patient has the longer a patient stays in the hospital or vice-versa.
+5. Among the 6 identified racial categories, the average number of lab procedures is within a small margin of one another, from 40.9 to 44.1.
 
 #### The Data
 The hospital information contained in this dataset was taken from the University of California Machine Learning Repository. This dataset represents ten years (1999-2008) of clinical care at 130 US hospitals and integrated delivery networks. Each row is a hospital record for a patient diagnosed with diabetes who underwent laboratory work, was given medications, and stayed at the hospital from 1 to 14 days.
@@ -77,14 +77,19 @@ _Does the number of procedures a patient receives affect the number of days a pa
 
 <img src="images/SQL Healthcare 05 Results.png"/>
 
-Because 1 patient can have multiple lab procedures, I categorized the patient into the least number of procedures as possible; even doing the avg works; using binomial distribution principles and the central limit theorem we can make the case to split the patient averages into bins with values ranging from few, average and many.
-It looks there is a correlation between these; the longer someone is at the hospital the more lab procedures they have, or vice-versa.
+To find the answer, I broke this question into two parts. I found the average number of days a patient stayed in the hospital and the number of lab procedures a patient had. Then I separated the averages into 3 bins ranging from few; to average and then many using the case when command to separate the averages. The following results show a correlation between the number of lab procedures and the number of days a patient stays in the hospital. The longer a patient stays in the hospital the more lab procedures they have, or vice-versa.
 
-
-_none_
 <img src=" "/>
 
-none. 
+To answer the following question, I used the JOIN command to combine two tables together. The patient’s health information was provided in one table while the patient’s demographics were in another. Then I used the patient number, race, and the number of lab procedure attributes to find the average number of lab procedures for the total number of patients grouped by race. 
+
+<img src=" "/>
+
+_Does patient demographics like race influence the number of lab procedures needed?_
+
+<img src=" "/>
+
+The results indicate that, among the six identified racial categories, the average number of lab procedures is closely clustered, ranging from 40.9 to 44.1.
 
 #### Insights and Recommendations
 I enjoyed exploring hospital operations and patient healthcare information to practice SQL queries.  If you enjoyed reading my analysis and are interested in knowing more, please feel free to connect with me on LinkedIn and check out my other projects!
