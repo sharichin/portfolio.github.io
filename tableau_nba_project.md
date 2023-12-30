@@ -23,9 +23,9 @@ I've been asked to provide information on player's performance and their teams.
 
 1. Shooting guard is the most efficient position at shooting 3-pointers for each team, with 5 of 30 teams ranking in the top quartile.
 2. 91% of the variation in the number of points a player has in the season is related to the total number of minutes played.
-3. SAC has 9,898 points which is 145 points more than GSW, the second-best team.
-4. Point guard Russel Westbrook (Clippers) has 2.5 times more assists than the shooting guard position’s top number of assist.
-5. Atlanta’s Trae Young is a clear outlier with 741 assists, 1914 points and 217 rebounds.
+3. Sacramento Kings has 9,898 points which is 145 points more than Golden State Warriors, the second-best team.
+4. Point guard Russel Westbrook (Clippers) has 2.5 times more assists than the second best position and player with the top number of assists.
+5. Atlanta Hawk's Trae Young is a clear outlier with 741 assists, 1914 points and 217 rebounds.
 
 #### The Data
 Using Tableau, I analyzed player and team statistics to identify areas players and teams could improve in from the start of the season, October 2022 to the championship game, April 2023. The data contains 30 teams with 5 different positions and 539 different players. Although 31 attributes were included in the data dictionary, only the following 9 were used in this analysis.
@@ -60,12 +60,12 @@ _What were the total points for each team and how much did each player contribut
 
 To find this, I created a stacked bar chart showing the total number of points per team stacked by players’ total points within the team in descending order from highest to lowest. SAC for instance has 9,898 points which is 145 points more than GSW, the second-best team. The gradual narrowing of the column size shows the player’s points within the total points scored by the team. BOS’s Jayson Tatum has the most points scored out of Boston and overall with 2,225 points in the season.  
 
-_What players had the most assists in every position?_
+_Which players had the most assists in every position?_
 <img src="images/Tree map.png"/>
 
 I chose to answer the question above by using a tree map showing the 5 different positions grouped into larger squares, and within the larger squares are players’ total number of assists. For the Point Guard position and overall positions, Russel Westbrook has 2.5 times more assists compared to the Shooting Guard position’s top number of assists. 
 
-_Use a player's points assists, and total rebounds to find how individual players performed during the season._
+_Evaluate a player's performance throughout the season by examining their points, assists, and total rebounds._
 <img src="images/Bubble Plot.png"/>
 
 To answer the following question above, I chose to highlight a few teams from the East and West coast. I created a bubble plot to show the total number of points, assists, and rebounds (indicated by the size of the players' bubble) for East Coast teams, MIA, ATL, and West Coast teams POR, GSW.  Atlanta’s Trae Young is a clear outlier with 741 assists, 1914 points and 217 rebounds. 
