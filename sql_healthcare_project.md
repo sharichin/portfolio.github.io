@@ -28,9 +28,9 @@ I've been asked to provide various lists using patient statistics.
 5. Among the 6 identified racial categories, the average number of lab procedures is within a small margin of one another, from 40.9 to 44.1.
 
 #### The Data
-The hospital information contained in this dataset was taken from the University of California Machine Learning Repository. This dataset represents ten years (1999-2008) of clinical care at 130 US hospitals and integrated delivery networks. Each row is a hospital record for a patient diagnosed with diabetes who underwent laboratory work, was given medications, and stayed at the hospital from 1 to 14 days.
+The hospital information contained in this dataset was taken from the [University of California Machine Learning Repository](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008). This dataset represents ten years (1999-2008) of clinical care at 130 US hospitals and integrated delivery networks. Each row is a hospital record for a patient diagnosed with diabetes who underwent laboratory work, was given medications, and stayed at the hospital from 1 to 14 days.
 
-The dataset can also be found on Kaggle. It contains 101,766 rows (101,765 as patients) and 52 attributes divided into 2 separate tables. 
+The dataset can also be found on [Kaggle](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/notebook#Data-Preparation-&-Exploration). It contains 101,766 rows (101,765 as patients) and 52 attributes divided into 2 separate tables. 
 An extensive data dictionary can be found here. Only the following 8 attributes were used in this analysis:
 
 * patient_nbr 
