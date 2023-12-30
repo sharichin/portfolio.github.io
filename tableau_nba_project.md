@@ -5,18 +5,18 @@
 
 
 #### Introduction
-I enjoy watching soccer and track so I thought it would be fun to include a sports analysis project in my portfolio. For this project, I analyzed basketball players' individual and team performance from the 2022-2023 NBA Season. Since the dataset included both player and team statistics, I explored the details to identify areas players and teams could potentially improve in. Also in my analysis, I chose to highlight 4 teams (MIA, ATL, POR, GSW) to showcase teams from the East and West coast in cities I've had the opportunity to experience and live in. 
+I enjoy watching soccer and track so I thought it would be fun to include a sports analysis project in my portfolio. For this project, I analyzed basketball players' individual and team performance from the 2022-2023 NBA Season. Since the dataset included both player and team statistics, I explored the details to identify areas players and teams could potentially improve in. I highlighted 4 teams from both the east and west coast (Miami Heat, Atlanta Hawks, Portland Trail Blazers and San Francisco Golden State Warriors) which also happens to be cities I've lived in. 
 
 #### Objective
-I've been asked to provide statistics on player's performance and the teams they play on.
+I've been asked to provide information on player's performance and their teams.
 
 ##### Here are a few questions I set out to answer:
 
-1. What position is most efficient at shooting 3-pointers for each team?
+1. Which position is most efficient at shooting 3-pointers for each team?
 2. Does the number of minutes played relate to the total number of points made in a season?
 3. What were the total points for each team and how much did each player contribute?
-4. What players had the most assists in every position?
-5. Use a player's points assists, and total rebounds to find how individual players performed during the season.
+4. Which players had the most assists in every position?
+5. Use a player's total points, assists, and total rebounds to find how individual players performed during the season.
 
 
 ##### Key Insights
@@ -24,7 +24,7 @@ I've been asked to provide statistics on player's performance and the teams they
 1. Shooting guard is the most efficient position at shooting 3-pointers for each team, with 5 of 30 teams ranking in the top quartile.
 2. 91% of the variation in the number of points a player has in the season is related to the total number of minutes played.
 3. SAC has 9,898 points which is 145 points more than GSW, the second-best team.
-4. Point guard Russel Westbrook has 2.5 times more assists than the shooting guard position’s top number of assist.
+4. Point guard Russel Westbrook (Clippers) has 2.5 times more assists than the shooting guard position’s top number of assist.
 5. Atlanta’s Trae Young is a clear outlier with 741 assists, 1914 points and 217 rebounds.
 
 #### The Data
