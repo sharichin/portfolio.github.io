@@ -7,11 +7,19 @@ layout: default
 
 ### Learn About My Projects
 
+#### [Linked File Project](/files/DAA Intern Job Analysis Presentationv1.pdf.pdf)
+<img src="images/Salary Boxplot Outliers Github Cover.png"/>
+In this project, I gained experience working in a team through the full life cycle of a data project using Excel, Python and Tableau. This project is based on job posts webscraped from Google's search results between Q4 2022 to Q4 2023. My role included leading the team; and preparing, processing and analyzing the dataset.
+
+#### [Click here to Kaggle Code](https://www.kaggle.com/code/datadomino/data-cleaning-in-python).
+#### [Click here to use dashboard](https://public.tableau.com/views/JobPostingData_17008765985050/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link).
+
+---
 #### [Internal Blog Post Project](/tableau_nba_project.md)
 <img src="images/NBA Github Cover.png"/>
 For this project, I analyzed basketball players' individual and team performance from the 2022-2023 NBA Season. Since the data included both player and team statistics, I explored the details to identify areas players and teams could potentially improve in. Also in my analysis, I chose to highlight 4 teams (Miami Heat, Atlanta Hawks, Portland Trail Blazers and San Francisco Golden State Warriors) to showcase teams from the East and West coast in cities I've had the opportunity to experience and live in.
 
-[Click here to use dashboard](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/22-23NBATeamAnalysisDashboard?:language=en-US&:display_count=n&:origin=viz_share_link).
+#### [Click here to use dashboard](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/22-23NBATeamAnalysisDashboard?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 
 ---
