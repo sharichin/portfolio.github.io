@@ -7,7 +7,7 @@ layout: default
 
 ### Learn About My Projects
 
-#### [Linked File Project](/files/DAA Intern Job Analysis Presentationv1.pdf.pdf)
+#### [Linked File Project](/files/DAA Intern Job Analysis Presentationv1.pdf)
 <img src="images/Salary Boxplot Outliers Github Cover.png"/>
 In this project, I gained experience working in a team through the full life cycle of a data project using Excel, Python and Tableau. This project is based on job posts webscraped from Google's search results between Q4 2022 to Q4 2023. My role included leading the team; and preparing, processing and analyzing the dataset.
 
