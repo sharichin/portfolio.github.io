@@ -64,45 +64,46 @@ _Tools used:_
 Excel, SQL querying and Tableau
 
 #### The Analysis + Commentary
-_Which position is most efficient at shooting 3-pointers for each team?_
+_Which state and metro area has the most revitalization counties in the HUD dataset?_
 
 <img src="images/NBA Heatmap.png">
 
 [Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/Heatmap?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-To answer the question above, I created a heatmap to show the teams with the highest 3-point average split by positions. The heat map shows 5 of the 30 teams (MEM, LAC, PHI, DEN, and MIL) to have 40.3% to 42.6% shooting average for the shooting guard position. The next best position would be center position showing 3 teams with an average 3-point shot from 41.1% to 46.2%. As a result, the shooting guard position is the most efficient position at shooting 3-point shots for each team. 
+I answered this question by doing a quick pivot table analysis in Excel. From the table, I found 4 states representing 43% of the households living in revitalization counties – 6(CA), 48(TX) 36(NY/NJ), and 12(FL).   
 
 <img src="images/NBA Scatter Plot.png"/>
 
+I filtered the top 4 states to further explore the median household incomes at the county and metro area levels.
+
+To do this, I used the following SQL query which provided the top 5 counties within each state and the number of households shown within the counties.
+
 [Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/ScatterPlot?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-_Are the number of minutes played related to the total number of points made in a season?_
+The results showed the top 5 counties in the 4 states above ranked by the number of households within each county. For example, TX (labeled as 48) showed counties 201(Harris), 113(Dallas), 439(Tarrant), 29(Bexar), and 453(Travis) to have the most households.
+ 
+[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/ScatterPlot?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-I explored the data further to find if there was a relationship between the number of minutes a player played in the season and the total number of points scored. To do this, I created a scatter plot and drew a trend line using linear regression. Because I knew the total number of points started at the beginning of the season when the first game was played, I forced the y-intercept regression line to start at 0; so, the estimated value of the points when no minutes were played would be 0.
+_Does the unemployment rate have an influence on median house sales price?_
 
-The trendline showed the R-squared value to be 0.912 and the slope to be 0.497. This indicates that 91.2% of the variation in the total number of points made in the season is related to the number of minutes played in the season. The slope also indicates that for each additional minute played the number of points is expected to increase by approximately 49.7%. It was interesting to see this analysis. The data shows a strong positive relationship between the number of minutes played and the total number of points made in a season. Further analysis would be needed to find other relationships and factors that contribute to a player’s total points scored. 
+To answer this question, I visualized the Zillow Housing data along with the BLS unemployment rate data using the following line chart. The line chart represents the 12 metro areas’ total median household income and the average unemployment rate in these areas from 2018-2022.
 
 <img src="images/Descending Bar Chart.png"/>
 
+The results show a steady increase in median house sales prices between 2018 to 2019 as the unemployment rate decreased. However, between 2020 and 2021, median house sales prices surged up to 22.4% surpassing previous years’ median house sales by 18%. From the results, I concluded the unemployment rate did not influence the price of median house sales. Further analysis would be needed to see what other factors could be influencing the median house sales price.
+
 [Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/SkinnyStackedBarChart?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-_What were the total points for each team and how much did each player contribute?_
+_What metro areas have the highest median sales price?_
 
-To find this, I created a stacked bar chart showing the total number of points per team stacked by players’ total points within the team in descending order from highest to lowest. SAC for instance has 9,898 points which is 145 points more than GSW, the second-best team. The gradual narrowing of the column size shows the player’s points within the total points scored by the team. BOS’s Jayson Tatum has the most points scored out of Boston and overall with 2,225 points in the season.  
+Continuing with the Zillow Housing dataset, I dived deeper to see which counties had the highest median sales price by their metropolitan region.  San Jose Sunnyvale Santa Clara County (85) had the highest median sales at $1.625 million in 2022. San Jose Sunnyvale Santa Clara County trends upward as an outlier with generally higher incomes compared to the remaining regions in the chart. Los Angeles County (37) median house sales price follows right below Sunnyvale Santa Clara with $1.074 million.  
 
-_Which players had the most assists in every position?_
+_What does income distribution look like within the following counties?_
 <img src="images/Tree map.png"/>
+
+To answer this question, I compared the income distribution of the 2 counties with a median sales price above $1 million and the 2 counties with a median sales price below $300,000. Since one county can have up to nine block groups, I looked at the income distribution across the block groups in the county that had more than one income level present. The heat map below shows Santa Clara County’s Block ID-3 with 18% of the total Block Group having median income levels between 101-150k. Whereas Dallas County showed 27% of households having a median income between 26-50k. Thus, comparing median household income between block groups shows locations where the income distribution levels could be improved. 
 
 [Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/Treemap?:language=en-US&:display_count=n&:origin=viz_share_link)
 
-I chose to answer the question above by using a tree map showing the 5 different positions grouped into larger squares, and within the larger squares are players’ total number of assists. For the Point Guard position and overall positions, Russel Westbrook has 2.5 times more assists compared to the Shooting Guard position’s top number of assists. 
-
-_Evaluate a player's performance throughout the season by examining their points, assists, and total rebounds._
-<img src="images/Bubble Plot.png"/>
-
-[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/BubblePlot?:language=en-US&:display_count=n&:origin=viz_share_link)
-
-To answer the following question above, I chose to highlight a few teams from the East and West coast. I created a bubble plot to show the total number of points, assists, and rebounds (indicated by the size of the players' bubble) for East Coast teams, MIA, ATL, and West Coast teams POR, GSW.  Atlanta’s Trae Young is a clear outlier with 741 assists, 1914 points and 217 rebounds. 
-
 #### Insights and Recommendations
-I enjoyed exploring the 22-23 NBA season and there are a lot of insights to take away from this analysis. If you  enjoyed reading my analysis and are interested in knowing more, please feel free to connect with me on LinkedIn and check out my other projects!
+Given that the median household income data in the dataset primarily represent rent-controlled citizens and working-class professionals such as law enforcement, emergency responders, and teachers residing in their respective communities, I would advise policymakers to maintain their focus on implementing policies aimed at improving the distribution of median household income across neighborhood block groups. Additionally, I would recommend further analysis of the unemployment rate to identify which occupations and income levels are most affected, enabling policymakers to target interventions more effectively. If you  enjoyed reading my analysis and are interested in knowing more, please feel free to connect with me on LinkedIn and check out my other projects!
