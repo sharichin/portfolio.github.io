@@ -67,7 +67,7 @@ Excel, SQL querying and Tableau
 #### The Analysis + Commentary
 _Which state and metro area has the most revitalization counties in the HUD dataset?_
 
-<img src="images/NBA Heatmap.png">
+<img src="images/HUD Counties Chart 1.png">
 
 [Click here to use interactive chart](https://public.tableau.com/shared/WSCYR2D4H?:display_count=n&:origin=viz_share_link)
 
