@@ -1,0 +1,89 @@
+# 2018-2022 Household Income & Housing Market Analysis
+
+### _What does income distribution look like in neighborhoods impacted by government policies?_
+---
+
+
+#### Introduction
+In this project, I examined median house sales and household income data in 12 metropolitan areas across the US from 2018 to 2022 to understand how housing supply and demand affect Americans across various income levels. The metropolitan areas selected for analysis, have been identified by the Department of Housing and Urban Development (HUD) as regions that could benefit from expanded homeownership opportunities. Recent events, as of 2024, like the initiative to issue a tax credit for first-time homebuyers that meet certain criteria, sparked my interest in understanding the housing market through data analysis. As a result, this project is purely for informational purposes.  
+
+#### Background
+Revitalization Areas, designated by HUD, are geographic locations identified as areas that could benefit from increased homeownership opportunities. To facilitate this, HUD offers special programs like the Good Neighbor Next Door Program (GNND) to eligible professionals within these areas. As a result, the median household income data provided in the dataset includes income from rent-controlled citizens, law enforcement professionals, emergency responders, and teachers residing in the communities they serve. 
+
+#### Objective
+My objective was to combine various data processing techniques using Excel, SQL querying, and a visualization tool like Tableau to explore the relationship between household income and median sales price across US regions down to the neighborhood level.
+
+##### Here are a few questions I set out to answer:
+
+1. Which state and metro area has the most revitalization areas?
+2. Does the unemployment rate have an influence on median house sales price?
+3. What metro areas have the highest median sales price?
+4. Which metro region has the highest number of working professionals making more than 150k?
+5. What does income distribution look like within the following counties?
+
+
+##### Key Insights
+
+1. Shooting guard is the most efficient position at shooting 3-pointers for each team, with 5 of 30 teams ranking in the top quartile.
+2. 91% of the variation in the number of points a player has in the season is related to the total number of minutes played.
+3. Sacramento Kings has 9,898 points which is 145 points more than Golden State Warriors, the second-best team.
+4. Point guard Russel Westbrook (Clippers) has 2.5 times more assists than the second best position and player with the top number of assists.
+5. Atlanta Hawk's Trae Young is a clear outlier with 741 assists, 1914 points and 217 rebounds.
+
+#### The Data
+Using Tableau, I analyzed player and team statistics to identify areas players and teams could improve in from the start of the season, October 2022 to the championship game, April 2023. The data contains 30 teams with 5 different positions and 539 different players. Although 31 attributes were included in the data dictionary, only the following 9 were used in this analysis.
+
+### The data included the following:
+* Tm - Team
+* Pos - Position
+* PN - Player Name
+* MP - Minutes Played
+* 3P - 3-Pointers Made
+* 3PA - 3-Pointers Made
+* TRB - Total Rebounds
+* AST - Assists
+* PTS - Total Points Scored
+
+#### The Analysis + Commentary
+_Which position is most efficient at shooting 3-pointers for each team?_
+
+<img src="images/NBA Heatmap.png">
+
+[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/Heatmap?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+To answer the question above, I created a heatmap to show the teams with the highest 3-point average split by positions. The heat map shows 5 of the 30 teams (MEM, LAC, PHI, DEN, and MIL) to have 40.3% to 42.6% shooting average for the shooting guard position. The next best position would be center position showing 3 teams with an average 3-point shot from 41.1% to 46.2%. As a result, the shooting guard position is the most efficient position at shooting 3-point shots for each team. 
+
+<img src="images/NBA Scatter Plot.png"/>
+
+[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/ScatterPlot?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+_Are the number of minutes played related to the total number of points made in a season?_
+
+I explored the data further to find if there was a relationship between the number of minutes a player played in the season and the total number of points scored. To do this, I created a scatter plot and drew a trend line using linear regression. Because I knew the total number of points started at the beginning of the season when the first game was played, I forced the y-intercept regression line to start at 0; so, the estimated value of the points when no minutes were played would be 0.
+
+The trendline showed the R-squared value to be 0.912 and the slope to be 0.497. This indicates that 91.2% of the variation in the total number of points made in the season is related to the number of minutes played in the season. The slope also indicates that for each additional minute played the number of points is expected to increase by approximately 49.7%. It was interesting to see this analysis. The data shows a strong positive relationship between the number of minutes played and the total number of points made in a season. Further analysis would be needed to find other relationships and factors that contribute to a player’s total points scored. 
+
+<img src="images/Descending Bar Chart.png"/>
+
+[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/SkinnyStackedBarChart?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+_What were the total points for each team and how much did each player contribute?_
+
+To find this, I created a stacked bar chart showing the total number of points per team stacked by players’ total points within the team in descending order from highest to lowest. SAC for instance has 9,898 points which is 145 points more than GSW, the second-best team. The gradual narrowing of the column size shows the player’s points within the total points scored by the team. BOS’s Jayson Tatum has the most points scored out of Boston and overall with 2,225 points in the season.  
+
+_Which players had the most assists in every position?_
+<img src="images/Tree map.png"/>
+
+[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/Treemap?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+I chose to answer the question above by using a tree map showing the 5 different positions grouped into larger squares, and within the larger squares are players’ total number of assists. For the Point Guard position and overall positions, Russel Westbrook has 2.5 times more assists compared to the Shooting Guard position’s top number of assists. 
+
+_Evaluate a player's performance throughout the season by examining their points, assists, and total rebounds._
+<img src="images/Bubble Plot.png"/>
+
+[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/BubblePlot?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+To answer the following question above, I chose to highlight a few teams from the East and West coast. I created a bubble plot to show the total number of points, assists, and rebounds (indicated by the size of the players' bubble) for East Coast teams, MIA, ATL, and West Coast teams POR, GSW.  Atlanta’s Trae Young is a clear outlier with 741 assists, 1914 points and 217 rebounds. 
+
+#### Insights and Recommendations
+I enjoyed exploring the 22-23 NBA season and there are a lot of insights to take away from this analysis. If you  enjoyed reading my analysis and are interested in knowing more, please feel free to connect with me on LinkedIn and check out my other projects!
