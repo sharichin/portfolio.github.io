@@ -32,7 +32,7 @@ My objective was to combine various data processing techniques using Excel, SQL 
 
 #### The Data
 
-This project uses (3) sources to provide information: the [Housing Urban Department’s (HUD) Revitalization Areas](https://catalog.data.gov/dataset/revitalization-areas), Zillow’s housing data, and the BLS unemployment rate.
+This project uses (3) sources to provide information: the [Housing Urban Department’s (HUD) Revitalization Areas](https://catalog.data.gov/dataset/revitalization-areas), Zillow’s Housing data, and the BLS unemployment rate.
 
 The dataset was formatted, cleaned, and compiled individually and represents 4 years (2018 – 2022) of housing market trends in 12 metropolitan regions across the US.
  
@@ -69,7 +69,7 @@ _Which state and metro area has the most revitalization counties in the HUD data
 
 <img src="images/NBA Heatmap.png">
 
-[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/Heatmap?:language=en-US&:display_count=n&:origin=viz_share_link)
+[Click here to use interactive chart](https://public.tableau.com/shared/WSCYR2D4H?:display_count=n&:origin=viz_share_link)
 
 I answered this question by doing a quick pivot table analysis in Excel. From the table, I found 4 states representing 43% of the households living in revitalization counties – 6(CA), 48(TX) 36(NY/NJ), and 12(FL).   
 
