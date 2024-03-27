@@ -24,14 +24,23 @@ My objective was to combine various data processing techniques using Excel, SQL 
 
 ##### Key Insights
 
-1. Shooting guard is the most efficient position at shooting 3-pointers for each team, with 5 of 30 teams ranking in the top quartile.
-2. 91% of the variation in the number of points a player has in the season is related to the total number of minutes played.
-3. Sacramento Kings has 9,898 points which is 145 points more than Golden State Warriors, the second-best team.
-4. Point guard Russel Westbrook (Clippers) has 2.5 times more assists than the second best position and player with the top number of assists.
-5. Atlanta Hawk's Trae Young is a clear outlier with 741 assists, 1914 points and 217 rebounds.
+1. CA, TX, NY/NJ, and FL had the most households living in revitalization areas representing 43% of the population within the dataset.
+2. From the results, I concluded the unemployment rate did not directly influence the price of median house sales.
+3. San Jose Sunnyvale Santa Clara (85) had the highest median sales price at $1.625 million in 2022.
+4. San Jose Sunnyvale Santa Clara (85) had the highest number of working professionals making over 151k+. 
+5. Income distribution across 4 various counties shows the majority of income levels within 0-75k.
 
 #### The Data
-Using Tableau, I analyzed player and team statistics to identify areas players and teams could improve in from the start of the season, October 2022 to the championship game, April 2023. The data contains 30 teams with 5 different positions and 539 different players. Although 31 attributes were included in the data dictionary, only the following 9 were used in this analysis.
+
+This project uses (3) sources to provide information: the Housing Urban Department’s (HUD) Revitalization Areas, Zillow’s housing data, and the BLS unemployment rate.
+
+The dataset was formatted, cleaned, and compiled individually and represents 4 years (2018 – 2022) of housing market trends in 12 metropolitan regions across the US.
+ 
+There were 220,109 households included in the HUD dataset. To account for missing values, only 220,017 households were used. In this dataset, 52 States were observed with Puerto Rico and Washington DC identified as States.
+ 
+The [Zillow Housing Dataset](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/SkinnyStackedBarChart?:language=en-US&:display_count=n&:origin=viz_share_link) contained median home sales for the 4 states and their counties shown in the HUD dataset. 
+
+The [BLS Unemployment Rate Dataset](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/SkinnyStackedBarChart?:language=en-US&:display_count=n&:origin=viz_share_link) contained the average yearly unemployment rate for the 4 states and their counties shown in the HUD dataset.
 
 ### The data included the following:
 * Tm - Team
