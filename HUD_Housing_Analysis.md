@@ -34,7 +34,7 @@ My objective was to combine various data processing techniques using Excel, SQL 
 
 This project uses (3) sources to provide information: the [Housing Urban Department’s (HUD) Revitalization Areas](https://catalog.data.gov/dataset/revitalization-areas), Zillow’s Housing data, and the BLS unemployment rate.
 
-The dataset was formatted, cleaned, and compiled individually and represents 4 years (2018 – 2022) of housing market trends in 12 metropolitan regions across the US.
+The dataset was formatted, cleaned, and compiled individually and represents 4 years (2018 – 2022) of housing market trends in 12 metropolitan areas across the US.
  
 There were 220,109 households included in the HUD dataset. To account for missing values, only 220,017 households were used. In this dataset, 52 States were observed with Puerto Rico and Washington DC identified as States.
  
