@@ -68,26 +68,23 @@ Excel, SQL querying and Tableau
 _Which state and metro area has the most revitalization counties in the HUD dataset?_
 
 I answered this question by doing a quick pivot table analysis in Excel. From the table, I found 4 states representing 43% of the households living in revitalization counties – 6(CA), 48(TX) 36(NY/NJ), and 12(FL).  
-
 <img src="images/HUD Pivot Table 1.png">
-
-[Click here to use interactive chart](https://public.tableau.com/shared/WSCYR2D4H?:display_count=n&:origin=viz_share_link)
-
-<img src=" "/>
 
 I filtered the top 4 states to further explore the median household incomes at the county and metro area levels.
 
 To do this, I used the following SQL query which provided the top 5 counties within each state and the number of households shown within the counties.
 
-[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/ScatterPlot?:language=en-US&:display_count=n&:origin=viz_share_link)
+<img src="images/HUD SQL Code.png"/>
 
 The results showed the top 5 counties in the 4 states above ranked by the number of households within each county. For example, TX (labeled as 48) showed counties 201(Harris), 113(Dallas), 439(Tarrant), 29(Bexar), and 453(Travis) to have the most households.
- 
-[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/ScatterPlot?:language=en-US&:display_count=n&:origin=viz_share_link)
 
+[Click here to use interactive chart](https://public.tableau.com/shared/WSCYR2D4H?:display_count=n&:origin=viz_share_link)
+ 
 _Does the unemployment rate have an influence on median house sales price?_
 
 To answer this question, I visualized the Zillow Housing data along with the BLS unemployment rate data using the following line chart. The line chart represents the 12 metro areas’ total median household income and the average unemployment rate in these areas from 2018-2022.
+
+[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/ScatterPlot?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 <img src="images/Descending Bar Chart.png"/>
 
