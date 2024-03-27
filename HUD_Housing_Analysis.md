@@ -18,7 +18,7 @@ My objective was to combine various data processing techniques using Excel, SQL 
 1. Which state and metro area has the most revitalization areas?
 2. Does the unemployment rate have an influence on median house sales price?
 3. What metro areas have the highest median sales price?
-4. Which metro region has the highest number of working professionals making more than 150k?
+4. Which metro area has the highest number of working professionals making more than 150k?
 5. What does income distribution look like within the following counties?
 
 
