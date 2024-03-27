@@ -17,8 +17,8 @@ In this project, I examined median house sales and household income data in 12 m
 <img src="images/Salary Boxplot Outliers Github Cover.png"/>
 In this project, I gained experience working in a team through the full life cycle of a data project using Excel, Python and Tableau. This project is based on job posts webscraped from Google's search results between Q4 2022 to Q4 2023. My role included leading the team; and preparing, processing and analyzing the dataset.
 
-#### [Click here to Kaggle Code](https://www.kaggle.com/code/datadomino/data-cleaning-in-python).
-#### [Click here to use dashboard](https://public.tableau.com/views/JobPostingData_17008765985050/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link).
+#### [Click here to Kaggle Code](https://www.kaggle.com/code/datadomino/data-cleaning-in-python)
+#### [Click here to use dashboard](https://public.tableau.com/views/JobPostingData_17008765985050/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ---
 #### [Internal Blog Post Project](/tableau_nba_project.md)
