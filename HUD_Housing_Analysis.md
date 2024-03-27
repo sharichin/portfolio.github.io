@@ -86,7 +86,7 @@ To answer this question, I visualized the Zillow Housing data along with the BLS
 
 <img src="images/HUD Chart Unemployment.png"/>
 
-The results show a steady increase in median house sales prices between 2018 to 2019 as the unemployment rate decreased. However, between 2020 and 2021, median house sales prices surged up to 22.4% surpassing previous years’ median house sales prices by 18%. From the results, I concluded the unemployment rate did not influence the price of median house sales. Further analysis would be needed to see what other factors could be influencing the median house sales price.
+The results show a steady increase in median house sales prices between 2018 to 2019 as the unemployment rate decreased. However, between 2020 and 2021, as the unemployment rate decreased to levels similar to the year 2018, median house sales prices surged up to 22.4% surpassing the previous years’ median house sales prices by 18%. From the results, I concluded the unemployment rate did not influence the price of median house sales. Further analysis would be needed to see what other factors could be influencing the median house sales price.
 
 [Click here to use interactive chart](https://public.tableau.com/shared/KKHRF9WFQ?:display_count=n&:origin=viz_share_link)
 
