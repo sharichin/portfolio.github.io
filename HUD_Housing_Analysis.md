@@ -101,12 +101,11 @@ _What does income distribution look like within the following counties?_
 
 To answer this question, I compared the income distribution of the 2 counties with a median sales price above $1 million and the 2 counties with a median sales price below $300,000. Since one county can have up to nine block groups, I looked at the income distribution across the block groups in the county that had more than one income level present. The heat map below shows Santa Clara County’s Block ID-3 with 18% of the total Block Group having median income levels between 101-150k. Whereas Dallas County showed 27% of households having a median income between 26-50k. Thus, comparing median household income between block groups shows locations where the income distribution levels could be improved.
 
-<img src="images/Tree map.png"/>
+<img src="images/HUD Income Distribution Heat Map.png"/>
 
-[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/ScatterPlot?:language=en-US&:display_count=n&:origin=viz_share_link)
+[Click here to use interactive chart](https://public.tableau.com/views/2018MedianHouseholdIncomeDistributionbyBlockGroup/4Counties?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
-
-[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/Treemap?:language=en-US&:display_count=n&:origin=viz_share_link)
+[Click here to use interactive chart](https://public.tableau.com/views/MedianHouseholdIncomebyMetroRegion/MedianHouseholdIncome?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 #### Insights and Recommendations
 Given that the median household income data in the dataset primarily represent rent-controlled citizens and working-class professionals such as law enforcement, emergency responders, and teachers residing in their respective communities, I would advise policymakers to maintain their focus on implementing policies aimed at improving the distribution of median household income across neighborhood block groups. Additionally, I would recommend further analysis of the unemployment rate to identify which occupations and income levels are most affected, enabling policymakers to target interventions more effectively. If you  enjoyed reading my analysis and are interested in knowing more, please feel free to connect with me on LinkedIn and check out my other projects!
