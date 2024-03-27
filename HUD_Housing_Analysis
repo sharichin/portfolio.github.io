@@ -42,16 +42,26 @@ The [Zillow Housing Dataset](https://public.tableau.com/views/2022-23NBASeasonPl
 
 The [BLS Unemployment Rate Dataset](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/SkinnyStackedBarChart?:language=en-US&:display_count=n&:origin=viz_share_link) contained the average yearly unemployment rate for the 4 states and their counties shown in the HUD dataset.
 
-### The data included the following:
-* Tm - Team
-* Pos - Position
-* PN - Player Name
-* MP - Minutes Played
-* 3P - 3-Pointers Made
+### The key variables used from the HUD Revitalization Areas Dataset are:
+* Sur Area Name – Metropolitan Area Name
+* State
+* County
+* BlkGrp - Block Group
+* Medhhinc -Median Household Income
+
+### The key variables used from the Zillow Single Family Home Dataset are:
 * 3PA - 3-Pointers Made
 * TRB - Total Rebounds
 * AST - Assists
 * PTS - Total Points Scored
+
+### The key variables used from the BLS Unemployment Dataset are:
+* Unemployment Rate
+* State FIPS Code
+* Year
+
+_Tools used:_
+Excel, SQL querying and Tableau
 
 #### The Analysis + Commentary
 _Which position is most efficient at shooting 3-pointers for each team?_
