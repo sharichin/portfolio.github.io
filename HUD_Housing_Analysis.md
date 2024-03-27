@@ -67,13 +67,13 @@ Excel, SQL querying and Tableau
 #### The Analysis + Commentary
 _Which state and metro area has the most revitalization counties in the HUD dataset?_
 
-<img src="images/HUD Counties Chart 1.png">
+I answered this question by doing a quick pivot table analysis in Excel. From the table, I found 4 states representing 43% of the households living in revitalization counties – 6(CA), 48(TX) 36(NY/NJ), and 12(FL).  
+
+<img src="images/HUD Pivot Table 1.png">
 
 [Click here to use interactive chart](https://public.tableau.com/shared/WSCYR2D4H?:display_count=n&:origin=viz_share_link)
 
-I answered this question by doing a quick pivot table analysis in Excel. From the table, I found 4 states representing 43% of the households living in revitalization counties – 6(CA), 48(TX) 36(NY/NJ), and 12(FL).   
-
-<img src="images/NBA Scatter Plot.png"/>
+<img src=" "/>
 
 I filtered the top 4 states to further explore the median household incomes at the county and metro area levels.
 
