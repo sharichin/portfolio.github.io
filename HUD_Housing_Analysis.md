@@ -5,7 +5,7 @@
 
 
 #### Introduction
-In this project, I examined median house sales and household income data in 12 metropolitan areas across the US from 2018 to 2022 to understand how housing supply and demand affect Americans across various income levels. The metropolitan areas selected for analysis, have been identified by the Department of Housing and Urban Development (HUD) as regions that could benefit from expanded homeownership opportunities. Recent events, as of 2024, like the initiative to issue a tax credit for first-time homebuyers that meet certain criteria, sparked my interest in understanding the housing market through data analysis. As a result, this project is purely for informational purposes.  
+In this project, I examined median house sales and household income data in 12 metropolitan areas across the US from 2018 to 2022 to understand how housing prices affect Americans across various income levels. The metropolitan areas selected for analysis, have been identified by the Department of Housing and Urban Development (HUD) as regions that could benefit from expanded homeownership opportunities. Recent events, as of 2024, like the initiative to issue a tax credit for first-time homebuyers that meet certain criteria, sparked my interest in understanding the housing market through data analysis. As a result, this project is purely for informational purposes.  
 
 #### Background
 Revitalization Areas, designated by HUD, are geographic locations identified as areas that could benefit from increased homeownership opportunities. To facilitate this, HUD offers special programs like the Good Neighbor Next Door Program (GNND) to eligible professionals within these areas. As a result, the median household income data provided in the dataset includes income from rent-controlled citizens, law enforcement professionals, emergency responders, and teachers residing in the communities they serve. 
@@ -32,28 +32,29 @@ My objective was to combine various data processing techniques using Excel, SQL 
 
 #### The Data
 
-This project uses (3) sources to provide information: the Housing Urban Department’s (HUD) Revitalization Areas, Zillow’s housing data, and the BLS unemployment rate.
+This project uses (3) sources to provide information: the [Housing Urban Department’s (HUD) Revitalization Areas](https://catalog.data.gov/dataset/revitalization-areas), Zillow’s housing data, and the BLS unemployment rate.
 
 The dataset was formatted, cleaned, and compiled individually and represents 4 years (2018 – 2022) of housing market trends in 12 metropolitan regions across the US.
  
 There were 220,109 households included in the HUD dataset. To account for missing values, only 220,017 households were used. In this dataset, 52 States were observed with Puerto Rico and Washington DC identified as States.
  
-The [Zillow Housing Dataset](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/SkinnyStackedBarChart?:language=en-US&:display_count=n&:origin=viz_share_link) contained median home sales for the 4 states and their counties shown in the HUD dataset. 
+The [Zillow Housing Dataset](https://www.zillow.com/research/data/) contained median home sales for the 4 states and their counties shown in the HUD dataset. 
 
-The [BLS Unemployment Rate Dataset](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/SkinnyStackedBarChart?:language=en-US&:display_count=n&:origin=viz_share_link) contained the average yearly unemployment rate for the 4 states and their counties shown in the HUD dataset.
+The [BLS Unemployment Rate Dataset](https://www.bls.gov/) contained the average yearly unemployment rate for the 4 states and their counties shown in the HUD dataset.
 
 ### The key variables used from the HUD Revitalization Areas Dataset are:
 * Sur Area Name – Metropolitan Area Name
 * State
 * County
 * BlkGrp - Block Group
-* Medhhinc -Median Household Income
+* Medhhinc - Median Household Income
 
 ### The key variables used from the Zillow Single Family Home Dataset are:
-* 3PA - 3-Pointers Made
-* TRB - Total Rebounds
-* AST - Assists
-* PTS - Total Points Scored
+* Median House Sales Price
+* Year
+* Region Name
+* State Code
+* Municipal Code
 
 ### The key variables used from the BLS Unemployment Dataset are:
 * Unemployment Rate
