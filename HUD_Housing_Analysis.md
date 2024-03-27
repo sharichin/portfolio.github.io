@@ -93,15 +93,18 @@ _What metro areas have the highest median sales price?_
 
 Continuing with the Zillow Housing dataset, I dived deeper to see which counties had the highest median sales price by their metropolitan region.  San Jose Sunnyvale Santa Clara County (85) had the highest median sales at $1.625 million in 2022. San Jose Sunnyvale Santa Clara County trends upward as an outlier with generally higher incomes compared to the remaining regions in the chart. Los Angeles County (37) median house sales price follows right below Sunnyvale Santa Clara with $1.074 million. 
 
+<img src="images/HUD Counties Chart 1.png"/>
+
 [Click here to use interactive chart](https://public.tableau.com/shared/WSCYR2D4H?:display_count=n&:origin=viz_share_link)
 
 _What does income distribution look like within the following counties?_
 
-[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/ScatterPlot?:language=en-US&:display_count=n&:origin=viz_share_link)
+To answer this question, I compared the income distribution of the 2 counties with a median sales price above $1 million and the 2 counties with a median sales price below $300,000. Since one county can have up to nine block groups, I looked at the income distribution across the block groups in the county that had more than one income level present. The heat map below shows Santa Clara County’s Block ID-3 with 18% of the total Block Group having median income levels between 101-150k. Whereas Dallas County showed 27% of households having a median income between 26-50k. Thus, comparing median household income between block groups shows locations where the income distribution levels could be improved.
 
 <img src="images/Tree map.png"/>
 
-To answer this question, I compared the income distribution of the 2 counties with a median sales price above $1 million and the 2 counties with a median sales price below $300,000. Since one county can have up to nine block groups, I looked at the income distribution across the block groups in the county that had more than one income level present. The heat map below shows Santa Clara County’s Block ID-3 with 18% of the total Block Group having median income levels between 101-150k. Whereas Dallas County showed 27% of households having a median income between 26-50k. Thus, comparing median household income between block groups shows locations where the income distribution levels could be improved. 
+[Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/ScatterPlot?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 
 [Click here to use interactive chart](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/Treemap?:language=en-US&:display_count=n&:origin=viz_share_link)
 
