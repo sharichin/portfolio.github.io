@@ -11,7 +11,7 @@ layout: default
 <img src="images/HUD Housing Market Analysis Cover.png"/>
 In this project, I examined median house sales and household income data in 12 metropolitan areas across the US from 2018 to 2022 to understand how housing prices affect Americans across various income levels using Excel, SQL querying, and Tableau. The metropolitan areas selected for analysis, have been identified by the Department of Housing and Urban Development (HUD) as regions that could benefit from expanded homeownership opportunities.
 
-#### [Click here to use dashboard](https://public.tableau.com/views/2018-2022HousingMarketAnalysisbyUSMetroRegion/HouseSalesvsUnemploymentRate?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link).
+#### [Click here to use dashboard](https://public.tableau.com/views/2018-2022HousingMarketAnalysisbyUSMetroRegion/HouseSalesvsUnemploymentRate?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
 #### [Linked File Project](/files/DAA Intern Job Analysis Presentationv1.pdf)
 <img src="images/Salary Boxplot Outliers Github Cover.png"/>
@@ -25,7 +25,7 @@ In this project, I gained experience working in a team through the full life cyc
 <img src="images/NBA Github Cover.png"/>
 For this project, I analyzed basketball players' individual and team performance from the 2022-2023 NBA Season. Since the data included both player and team statistics, I explored the details to identify areas players and teams could potentially improve in. Also in my analysis, I chose to highlight 4 teams (Miami Heat, Atlanta Hawks, Portland Trail Blazers and San Francisco Golden State Warriors) to showcase teams from the East and West coast in cities I've had the opportunity to experience and live in.
 
-#### [Click here to use dashboard](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/22-23NBATeamAnalysisDashboard?:language=en-US&:display_count=n&:origin=viz_share_link).
+#### [Click here to use dashboard](https://public.tableau.com/views/2022-23NBASeasonPlayerTeamAnalysisDashboard/22-23NBATeamAnalysisDashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 
 ---
