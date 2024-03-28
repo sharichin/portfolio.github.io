@@ -11,7 +11,7 @@ In this project, I examined median house sales and household income data in 12 m
 Revitalization Areas, designated by HUD, are geographic locations identified as areas that could benefit from increased homeownership opportunities. To facilitate this, HUD offers special programs like the Good Neighbor Next Door Program (GNND) to eligible professionals within these areas. As a result, the median household income data provided in the dataset includes income from rent-controlled citizens, law enforcement professionals, emergency responders, and teachers residing in the communities they serve. 
 
 #### Objective
-My objective was to combine various data processing techniques using Excel, SQL querying, and a visualization tool like Tableau to explore the relationship between household income and median sales price across US regions down to the neighborhood level.
+My objective was to combine various data processing techniques using Excel, SQL querying, and a visualization tool like Tableau to explore the relationship between household income and median house sales price across US regions down to the neighborhood level.
 
 ##### Here are a few questions I set out to answer:
 
@@ -82,7 +82,7 @@ The results showed the top 5 counties in the 4 states above ranked by the number
  
 _Does the unemployment rate have an influence on median house sales price?_
 
-To answer this question, I visualized the Zillow Housing data along with the BLS unemployment rate data using the following line chart. The line chart represents the 12 metro areas’ total median sales price and the average unemployment rate in these areas from 2018-2022.
+To answer this question, I visualized the Zillow Housing data along with the BLS unemployment rate data using the following line chart. The line chart represents the 12 metro areas’ total median house sales price and the average unemployment rate in these areas from 2018-2022.
 
 <img src="images/HUD Chart Unemployment.png"/>
 
