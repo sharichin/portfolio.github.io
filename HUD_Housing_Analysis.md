@@ -3,6 +3,8 @@
 ### _What does income distribution look like in neighborhoods impacted by government policies?_
 ---
 
+<img src="images/HUD Chart Unemployment.png"/>
+
 #### Introduction
 In this project, I examined median house sales and household income data in 12 metropolitan areas across the US from 2018 to 2022 to understand how housing prices affect Americans across various income levels. The metropolitan areas selected for analysis, have been identified by the Department of Housing and Urban Development (HUD) as regions that could benefit from expanded homeownership opportunities. Recent events, as of 2024, like the [housing initiative](https://www.hud.gov/press/press_releases_media_advisories/HUD_No_24_047) to issue a tax credit for first-time homebuyers that meet certain criteria, sparked my interest in understanding the housing market through data analysis. As a result, this project is purely for informational purposes.  
 
