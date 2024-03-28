@@ -82,7 +82,7 @@ The results showed the top 5 counties in the 4 states above ranked by the number
  
 _Does the unemployment rate have an influence on median house sales price?_
 
-To answer this question, I visualized the Zillow Housing data along with the BLS unemployment rate data using the following line chart. The line chart represents the 12 metro areas’ total median household income and the average unemployment rate in these areas from 2018-2022.
+To answer this question, I visualized the Zillow Housing data along with the BLS unemployment rate data using the following line chart. The line chart represents the 12 metro areas’ total median sales price and the average unemployment rate in these areas from 2018-2022.
 
 <img src="images/HUD Chart Unemployment.png"/>
 
