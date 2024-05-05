@@ -13,9 +13,9 @@ In this project, I examined median house sales and household income data in 12 m
 
 #### [Click here to use dashboard](https://public.tableau.com/views/2018-2022HousingMarketAnalysisbyUSMetroRegion/HouseSalesvsUnemploymentRate?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
-#### [Click here to view Presentation](/files/DAA Intern Job Analysis Presentationv1.pdf)
+#### [Click here to view Presentation](/files/R_Capstone_Bellabeat_Fitness_Case_Study.pdf)
 <img src="images/R_Bellabeat_Fitness _Tracker_Analysis.png"/>
-In this project, I analyzed fitness tracker user information to provide user insights to a Bellabeat, a Wellness Company. I used Excel and RStudio to clean and visualize 5 data sources for 33 smart device users. 
+In this project, I analyzed fitness tracker user information to provide insights to Bellabeat, a Wellness Company. I used Excel and RStudio to clean and visualize 5 data sources for 33 smart device users. 
 
 #### [Click here to view Kaggle Code](https://www.kaggle.com/code/datadomino/capstone-bellabeat-case-study-using-r/edit)
 
