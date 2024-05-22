@@ -7,6 +7,8 @@ layout: default
 
 ### Learn About My Projects
 
+#### [Link to Power Bi Dashboard Presentation](/HUD_Housing_Analysis.md)
+
 #### [Internal Blog Post Project](/HUD_Housing_Analysis.md)
 <img src="images/HUD Housing Market Analysis Cover.png"/>
 In this project, I examined median house sales and household income data in 12 metropolitan areas across the US from 2018 to 2022 to understand how housing prices affect Americans across various income levels using Excel, SQL querying, and Tableau. The metropolitan areas selected for analysis, have been identified by the Department of Housing and Urban Development (HUD) as regions that could benefit from expanded homeownership opportunities.
