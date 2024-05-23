@@ -7,7 +7,7 @@ layout: default
 
 ### Learn About My Projects
 
-#### [Link to Power Bi Dashboard Presentation](/HUD_Housing_Analysis.md)
+#### [Link to Power Bi Dashboard Presentation](/files/Coca Cola Sales Dashboard.pdf)
 
 #### [Internal Blog Post Project](/HUD_Housing_Analysis.md)
 <img src="images/HUD Housing Market Analysis Cover.png"/>
