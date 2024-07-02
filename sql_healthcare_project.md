@@ -23,7 +23,7 @@ I've been asked to provide various lists using patient statistics.
 
 1. The average number of days a patient spends in the hospital is 4.4 days, and 85% of patients spend less than 7 days in the hospital.
 2. There are 73 different medical specialties with the 5 most common medical specialties associated with unknown, internal medicine, emergency/trauma, family practice/ general medicine, and cardiology.
-3. Surgery-thoracic, Surgery-Cardiovascular/Thoracic, Radiologist, Cardiology, and Surgery-Vascular as the 5 medical specialties with the highest average number of procedures. 
+3. Surgery-thoracic, Surgery-Cardiovascular/Thoracic, Radiologist, Cardiology, and Surgery-Vascular are the 5 medical specialties with the highest average number of procedures. 
 4. The more lab procedures a patient has the longer a patient stays in the hospital or vice-versa.
 5. Among the 6 identified racial categories, the average number of lab procedures is within a small margin of one another, from 40.9 to 44.1.
 
