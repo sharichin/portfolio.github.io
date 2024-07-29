@@ -10,6 +10,12 @@ layout: default
 #### [Link to Power Bi Dashboard Presentation](/files/Coca Cola Sales Dashboard.pdf)
 
 ---
+#### [Click here to view video](https://youtu.be/mrlNEfwPXmA)
+<img src="images/SQL Healthcare Github Cover.png"/>
+In this project, I used Excel to clean, analyze, and create a quarterly variance report for a client to investigate a decline in their Quarter 2 sales volume in one of their regions. I conducted a budget variance analysis and a simple forecast, concluding that the loss of two clients in the affected region resulted in a 7k volume decrease, which previously constituted 57% of the market share for the company in that region.									
+
+
+---
 #### [Internal Blog Post Project](/sql_healthcare_project.md)
 <img src="images/SQL Healthcare Github Cover.png"/>
 In this project, I chose to practice SQL querying from multiple sources to provide analysis of 1999-2008 hospital care and patient information from 130 hospitals. Since there is a fine line between balancing business productivity and customer service, I explored the data to understand why managing patient turnover in hospitals beds is an important part of business operations.
