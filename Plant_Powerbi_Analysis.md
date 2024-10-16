@@ -22,89 +22,54 @@ The DAX code used to clean, organize and prepare the data for the dashboard can 
 #### Data Structure & Initial Checks
 Plant Landscapes database structure as seen below consists of 3 tables:  Plant_Sales Plant_Accounts and Plant_Products
 
+<img src="images/Plant_ERD .png">
 
-##### Here are a few questions I set out to answer:
+Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the dataset. The The DAX code used to clean, organize and prepare the data for the dashboard can be found here. (The DAX code used to inspect and perform quality checks can be found here)
 
-1. What does the distribution of time a patient spends in the hospital look like? Do the majority of patients stay less than 7 days?
-2. What are the 5 most common medical specialties? 
-3. Which medical specialties have the highest number of procedures?
-4. Does the number of lab procedures a patient receives affect the number of days a patient stays in the hospital?
-5. Does patient demographics like race influence the number of lab procedures needed?
+#### Executive Summary
+
+##### Overview of Findings
+
+After peaking in 2022, the company’s sales have continued to decline, with significant drops in 2023. Key performance indicators have shown year-over-year decreases in gross profit by 5% and sales revenue by 4% and despite a 3% gain in the volume sold, the sales average per order declined by 7%. While this decline can be broadly attributed to return to pre-pandemic normalcy, the following sections will explore additional contributing factors and highlight key opportunity areas for improvement.
+
+Below is the overview page from the PowerBi dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
 
 
-##### Key Insights
+##### Dashboard showing Gross Profit metrics
 
-1. The average number of days a patient spends in the hospital is 4.4 days, and 85% of patients spend less than 7 days in the hospital.
-2. There are 73 different medical specialties with the 5 most common medical specialties associated with unknown, internal medicine, emergency/trauma, family practice/ general medicine, and cardiology.
-3. Surgery-thoracic, Surgery-Cardiovascular/Thoracic, Radiologist, Cardiology, and Surgery-Vascular are the 5 medical specialties with the highest average number of procedures. 
-4. The more lab procedures a patient has the longer a patient stays in the hospital or vice-versa.
-5. Among the 6 identified racial categories, the average number of lab procedures is within a small margin of one another, from 40.9 to 44.1.
+<img src="images/Plant_Grossprofit_DAshboard.png">
 
-#### The Data
-The hospital information contained in this dataset was taken from the [University of California Machine Learning Repository](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008). This dataset represents ten years (1999-2008) of clinical care at 130 US hospitals and integrated delivery networks. Each row is a hospital record for a patient diagnosed with diabetes who underwent laboratory work, was given medications, and stayed at the hospital from 1 to 14 days.
+##### Dashboard showing Sales metrics
 
-The dataset can also be found on [Kaggle](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/notebook#Data-Preparation-&-Exploration). It contains 101,766 rows (101,765 as patients) and 52 attributes divided into 2 separate tables. 
-An extensive data dictionary can be found here. Only the following 8 attributes were used in this analysis:
+<img src="images/Plant_Sales_Dashboard.png">
 
-* patient_nbr 
-* admission_type_id 
-* time_in_hospital
-* medical_specialty
-* num_lab_procedures
-* num_procedures
-* num_medications
-* race
+##### Dashboard showing Quantity/ Volume metrics
 
-#### The Analysis + Commentary
-_What does the distribution of time a patient spends in the hospital look like? Do the majority of patients stay less than 7 days?_
-
-<img src="images/SQL Healthcare 01.png">
-
-In the following queries above I used the time_in_hospital metric to find the average number of days a patient stayed in the hospital. The results showed 4.4 days as the average time a patient spends in the hospital and further analysis showed 85% of patients stayed in the hospital for less than 7 days. SQL is typically not the best way to show visualizations, but by using the RPAD function and division, this query can be depicted showing patients represented as “stars” or asterisks in the histogram plotted below.  
-
-<img src="images/SQL Healthcare histogram.png">
----
-
-_What are the 5 most common medical specialties?_
-
-<img src="images/SQL Healthcare 02.png"/>
-<img src="images/SQL Healthcare 02 Results.png"/>
-
-For this question, I used queries focused on finding the number of unique medical specialties the hospital performed and the specialties performed the most within the 130 hospitals and integrated delivery networks. Results showed there are 73 different medical specialties with the 5 most common medical specialties associated with unknown, internal medicine, emergency/trauma, family practice/ general medicine, and cardiology.
-
-_Which medical specialties have the highest number of procedures?_
-
-<img src="images/SQL Healthcare avg prod.png"/>
-
-Because the queries used in question 2 focused on the number of medical specialties overall, I dived deeper into these initial queries to find the average number of procedures performed under the 5 most common medical specialties. The following query resulted in Proctology showing the medical specialty with the highest average number of procedures however the count showed 1, which may indicate an outlier. To account for outliers within the dataset, I did further analysis using the Having function. 
-
-<img src="images/SQL Healthcare avg prod 04.png"/>
+<img src="images/Plant_Quantity_Dashboard.png">
 
 ---
+#### Sales Trends
+* The company’s sales peaked in November 2022 with 51,052 orders totaling $1,383,639 monthly sales revenue. This corresponds with an increase in winter holiday consumer spending.
+* Beginning in February 2023, sales revenue hit a company lifetime low with the company earning just over $807k about 30% less than the previous year.
+* Despite an upward trend with April 2023 hitting it’s peak revenue at $1,342,505 the full year 2023 remained steady with an overall -5% sales revenue decline primarily due to lower than expected November holiday sales and February sales.
+* China made up 35% of the sales revenue from the company’s 50 countries and was the highest selling country in 2022. Despite their 2022 sales, the country ended 2023 with a 706.40k revenue decline in 2023.
 
-<img src="images/SQL Healthcare avg having.png"/>
+<img src="images/Plant_Country_Analysis.png">
 
-The Having function was used to filter for the medical specialty that had more than 50 patients and an average procedure of 2.5 or more. Now the results show Surgery-Thoracic, Surgery-Cardiovascular/Thoracic, Radiologist, Cardiology and Surgery-Vascular as the 5 medical specialties with the highest average number of procedures. 
+---
+#### Product Performance
+* Veronica prostrata L (Outdoor), was the top selling plant in 2023 bringing in $80,141 in sales revenue, compared to prior year when Pleurothallis domingensis Cogn. (Landscape) was the top selling plant. 
 
-<img src="images/SQL Healthcare avg med spec 04.png"/>
+<img src="images/Plant_Top_5_Plants.png"/>
 
-_Does the number of procedures a patient receives affect the number of days a patient stays in the hospital?_
+* Although orders for Outdoor plants increased by 14%, orders and brought in $96k more in sales revenue, Indoor and Landscape plants declined by a combined 5% and resulted in a nearly $608k decline in sales revenue for 2023.
+* Plants in the Indoor category was the least performing category with a decline of 13% in gross profit, contributing to 30.8% in total gross profit compared to Landscape and Outdoor plants.
 
-<img src="images/SQL Healthcare 05 Results.png"/>
+<img src="images/Plant_Category_Analysis.png"/>
 
-To find the answer, I broke this question into two parts. I found the average number of days a patient stayed in the hospital and the number of lab procedures a patient had. Then I separated the averages into 3 bins ranging from few; to average and then many using the case when command to separate the averages. The following results show a correlation between the number of lab procedures and the number of days a patient stays in the hospital. The longer a patient stays in the hospital the more lab procedures they have, or vice-versa.
+---
+#### Recommendations
 
-<img src="images/SQL Healthcare avg patient.png"/>
-
-To answer the following question, I used the JOIN command to combine two tables together. The patient’s health information was provided in one table while the patient’s demographics were in another. Then I used the patient number, race, and the number of lab procedure attributes to find the average number of lab procedures for the total number of patients grouped by race. 
-
-<img src="images/SQL Healthcare Race query.png"/>
-
-_Does patient demographics like race influence the number of lab procedures needed?_
-
-<img src="images/SQL Healthcare Race qresults.png"/>
-
-The results indicate that, among the six identified racial categories, the average number of lab procedures is closely clustered, ranging from 40.9 to 44.1.
-
-#### Insights and Recommendations
-I enjoyed exploring hospital operations and patient healthcare information to practice SQL queries.  If you enjoyed reading my analysis and are interested in knowing more, please feel free to connect with me on LinkedIn and check out my other projects!
+* With a 14% increase in Outdoor sales and a 4% increase in gross profit, focusing on the top 5 outdoor plants with the most sales is crucial. Looking for ways to reduce the cost of goods sold and perform a re-pricing strategy on the top and least performing outdoor plants would provide more revenue-enhancing opportunities.
+* With an 11% decline in Indoor plant sales and a 13% decrease in gross profit, focusing on the top 5 outdoor plants with the most sales is crucial. Looking for ways to reduce the cost of goods sold and perform a re-pricing strategy on the top and least performing indoor and landscape plants would provide more revenue-enhancing opportunities.
+* Because China made up 35% of the sales revenue from the company’s 50 countries, sales revenue relied heavily on China’s yearly output. Performing an active client vs non-active client analysis to increase client retention and sales growth in the bottom-performing countries would diversify their sales country distribution.
