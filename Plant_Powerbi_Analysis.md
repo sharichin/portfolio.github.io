@@ -10,7 +10,7 @@ The company has large amounts of data on its sales, product offerings and custom
 
 Insights and recommendations are provided on the following key areas:
 
-- Sales Trends Analysis: Evaluation of historical sales patterns  globally, focusing on Sales Revenue, Order Volume and Gross Profit
+- Sales Trend Analysis: Evaluation of historical sales patterns  globally, focusing on Sales Revenue, Order Volume and Gross Profit
 - Product Level Performance: An analysis of Plant Landscapes various product lines
 
 An interactive PowerBi dashboard can be downloaded here.
