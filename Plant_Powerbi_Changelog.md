@@ -2,6 +2,6 @@
 
 ---
 
-#### Changlog - process used to clean, organize and prepare the data for the dashboard 
+#### Changelog - process used to clean, organize and prepare the data for the dashboard 
     
 <img src="images/Plant_Changelog.png">
