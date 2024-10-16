@@ -6,7 +6,7 @@
 #### Project Background
 Plant Landscapes, is a global e-commerce company that sells indoor and outdoor plants worldwide through it’s website.
 
-The company has large amounts of data on its sales, product offerings and customer accounts. This project analyzes and synthesizes data from 2023 to 2024, into a performance metric dashboard in order to uncover critical insights that will improve Plant Landscape’s commercial success. 
+The company has large amounts of data on its sales, product offerings and customer accounts. This project analyzes and synthesizes data from 2022 to 2024, into a performance metric dashboard in order to uncover critical insights that will improve Plant Landscape’s commercial success. 
 
 Insights and recommendations are provided on the following key areas:
 
