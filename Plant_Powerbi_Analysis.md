@@ -15,7 +15,7 @@ Insights and recommendations are provided on the following key areas:
 
 An interactive PowerBi dashboard can be sent through email.
 
-The DAX code used to build the performance Model and calculated measures can be found here #### [Internal Blog Post Project](/Plant_Powerbi_Code.md)   
+The DAX code used to build the performance Model and calculated measures can be found [here](/Plant_Powerbi_Code.md)   
 
 The process used to clean, organize and prepare the data for the dashboard can be found here.  
 
