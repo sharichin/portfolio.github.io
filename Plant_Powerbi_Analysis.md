@@ -13,11 +13,11 @@ Insights and recommendations are provided on the following key areas:
 - Sales Trend Analysis: Evaluation of historical sales patterns  globally, focusing on Sales Revenue, Order Volume and Gross Profit
 - Product Level Performance: An analysis of Plant Landscapes various product lines
 
-An interactive PowerBi dashboard can be downloaded here.
+An interactive PowerBi dashboard can be sent through email.
 
-The DAX code used to build the performance Model and calculated measures can be found here.
+The DAX code used to build the performance Model and calculated measures can be found here #### [Internal Blog Post Project](/Plant_Powerbi_Code.md)   
 
-The DAX code used to clean, organize and prepare the data for the dashboard can be found here.  
+The process used to clean, organize and prepare the data for the dashboard can be found here.  
 
 #### Data Structure & Initial Checks
 Plant Landscapes database structure as seen below consists of 3 tables:  Plant_Sales Plant_Accounts and Plant_Products
