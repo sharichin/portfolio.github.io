@@ -9,7 +9,7 @@ layout: default
 
 #### [Internal Blog Post Project](/sql_healthcare_project.md)
 <img src="images/Plant Co Sales Performance Analysis.png"/>
-This analysis provides insights and receommendations to a global e-commerce plant supplier that sells indoor and outdoor plants worldwide. In this analysis I clean, transform and evaluate sales trends from 2022 to 2024 using Excel and PowerBi to visualize performance metrics in a dashboard. With an 11% decline in Indoor plant sales and a 13% decrease in gross profit, finding ways to reduce the cost of goods sold and perform a re-pricing strategy on the top and least performing indoor and landscape plants would provide more revenue-enhancing opportunities. 
+This analysis offers insights and recommendations for a global e-commerce plant supplier specializing in indoor and outdoor plants. I utilized Excel and PowerBI to clean, transform, and evaluate sales trends from 2022 to 2024, presenting key performance metrics in a dashboard. With an 11% decline in indoor plant sales and a 13% drop in gross profit, optimizing the cost of goods sold and implementing a re-pricing strategy for both top and underperforming indoor and landscape plants could create opportunities to boost revenue.
 
 ---
 #### [Click here to view video](https://youtu.be/mrlNEfwPXmA)
