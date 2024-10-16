@@ -17,14 +17,14 @@ An interactive PowerBi dashboard can be sent through email.
 
 The DAX code used to build the performance Model and calculated measures can be found [here](/Plant_Powerbi_Code.md)   
 
-The process used to clean, organize and prepare the data for the dashboard can be found here.  
+The process used to clean, organize and prepare the data for the dashboard can be found [here](/files/.  
 
 #### Data Structure & Initial Checks
-Plant Landscapes database structure as seen below consists of 3 tables:  Plant_Sales Plant_Accounts and Plant_Products
+Plant Landscapes database structure as seen below consists of 3 tables: Plant_Sales, Plant_Accounts, and Plant_Products
 
 <img src="images/Plant_ERD2.png">
 
-Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the dataset. The DAX code used to clean, organize and prepare the data for the dashboard can be found here. (The DAX code used to inspect and perform quality checks can be found here)
+Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the dataset. The DAX code used to clean, organize and prepare the data for the dashboard can be found [here](/Plant_Powerbi_Code.md) (The process used to inspect and perform quality checks can be found)
 
 #### Executive Summary
 
