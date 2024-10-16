@@ -3,12 +3,25 @@
 ### _What was the yearly gross profit percent change?_
 ---
 
-
 #### Project Background
-In this project, I chose to practice SQL querying from multiple sources to provide analysis of hospital care and patient information. When it concerns patient care, there is a fine line between balancing business productivity and customer service. As a professional who has construction experience helping to remodel hospital rooms, I’ve wondered how hospitals forecast the number of different diseases and people they can help each year let alone people each month. Oftentimes it takes between 6 to 36 months (sometimes 5 years) to take an Owner’s requirements and budget through pre-planning, design, budgeting, and more planning through construction. Taking this knowledge into perspective can help understand why managing patient turnover in hospital beds would be an important part of business operations.  
+Plant Landscapes, is a global e-commerce company that sells indoor and outdoor plants worldwide through it’s website.
 
-#### Objective
-I've been asked to provide various lists using patient statistics.
+The company has large amounts of data on its sales, product offerings and customer accounts. This project analyzes and synthesizes data from 2023 to 2024, into a performance metric dashboard in order to uncover critical insights that will improve Plant Landscape’s commercial success. 
+
+Insights and recommendations are provided on the following key areas:
+
+- Sales Trends Analysis: Evaluation of historical sales patterns  globally, focusing on Sales Revenue, Order Volume and Gross Profit
+- Product Level Performance: An analysis of Plant Landscapes various product lines
+
+An interactive PowerBi dashboard can be downloaded here.
+
+The DAX code used to build the performance Model and calculated measures can be found here.
+
+The DAX code used to clean, organize and prepare the data for the dashboard can be found here.  
+
+#### Data Structure & Initial Checks
+Plant Landscapes database structure as seen below consists of 3 tables:  Plant_Sales Plant_Accounts and Plant_Products
+
 
 ##### Here are a few questions I set out to answer:
 
