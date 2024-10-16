@@ -17,14 +17,14 @@ An interactive PowerBi dashboard can be sent through email.
 
 The DAX code used to build the performance model and calculated measures can be found [here](/Plant_Powerbi_Code.md)   
 
-The process used to clean, organize and prepare the data for the dashboard can be found [here](/files/.  
+The process used to clean, organize and prepare the data for the dashboard can be found [here](/Plant_Powerbi_Changelog.md).  
 
 #### Data Structure & Initial Checks
 Plant Landscapes database structure as seen below consists of 3 tables: Plant_Sales, Plant_Accounts, and Plant_Products
 
 <img src="images/Plant_ERD2.png">
 
-Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the dataset. The DAX code used to clean, organize and prepare the data for the dashboard can be found [here](/Plant_Powerbi_Code.md) (The process used to inspect and perform quality checks can be found)
+Prior to beginning the analysis, a variety of checks were conducted for quality control and familiarization with the dataset. The DAX code used to clean, organize and prepare the data for the dashboard can be found [here](/Plant_Powerbi_Code.md) (The process used to inspect and perform quality checks can be found [here](/Plant_Powerbi_Changelog.md)
 
 #### Executive Summary
 
@@ -32,7 +32,7 @@ Prior to beginning the analysis, a variety of checks were conducted for quality 
 
 After peaking in 2022, the company’s sales have continued to decline, with significant drops in 2023. Key performance indicators have shown year-over-year decreases in gross profit by 5% and sales revenue by 4% and despite a 3% gain in the volume sold, the sales average per order declined by 7%. While this decline can be broadly attributed to return to pre-pandemic normalcy, the following sections will explore additional contributing factors and highlight key opportunity areas for improvement.
 
-Below is the overview page from the PowerBi dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded here.
+Below is the overview page from the PowerBi dashboard and more examples are included throughout the report. The entire interactive dashboard can be sent via email.
 
 
 ##### Dashboard showing Gross Profit metrics
