@@ -8,8 +8,8 @@ layout: default
 ### Learn About My Projects
 
 #### [Internal Blog Post Project](/sql_healthcare_project.md)
-<img src="images/SQL Healthcare Github Cover.png"/>
-In this project, I chose to practice SQL querying from multiple sources to provide analysis of 1999-2008 hospital care and patient information from 130 hospitals. Since there is a fine line between balancing business productivity and customer service, I explored the data to understand why managing patient turnover in hospitals beds is an important part of business operations.
+<img src="images/Plant Co Sales Performance Analysis.png"/>
+This analysis provides insights and receommendations to a global e-commerce plant supplier that sells indoor and outdoor plants worldwide. In this analysis I clean, transform and evaluate sales trends from 2022 to 2024 using Excel and PowerBi to visualize performance metrics in a dashboard. With an 11% decline in Indoor plant sales and a 13% decrease in gross profit, finding ways to reduce the cost of goods sold and perform a re-pricing strategy on the top and least performing indoor and landscape plants would provide more revenue-enhancing opportunities. 
 
 ---
 #### [Click here to view video](https://youtu.be/mrlNEfwPXmA)
