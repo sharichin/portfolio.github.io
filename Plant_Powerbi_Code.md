@@ -4,7 +4,7 @@
 
 #### Dashboard Model to create key base measures - 
     
-    ```jsx
+
     **Sales = SUM(Fact_Sales[Sales_USD])
     Quantity = SUM(Fact_Sales[quantity])
     Gross Profit = [Sales] - [COGs]
@@ -14,7 +14,6 @@
     
     **Model Building - Create additional measures PYTD and YTD measures for base inputs:**
     
-    ```jsx
     **PYTD_Sales = 
     CALCULATE(
         [Sales], 
@@ -43,7 +42,7 @@
     
     **Model Building - Create switch measures for model dashboard:**
     
-    ```jsx
+   
     **S_PYTD = 
     VAR selected_value = SELECTEDVALUE(Slc_Values[Values])
     VAR result = SWITCH(selected_value, 
