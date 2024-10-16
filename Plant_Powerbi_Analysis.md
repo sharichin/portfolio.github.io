@@ -62,8 +62,8 @@ Below is the overview page from the PowerBi dashboard and more examples are incl
 
 <img src="images/Plant_Top_5_Plants.png"/>
 
-* Although orders for Outdoor plants increased by 14%, orders and brought in $96k more in sales revenue, Indoor and Landscape plants declined by a combined 5% and resulted in a nearly $608k decline in sales revenue for 2023.
-* Plants in the Indoor category was the least performing category with a decline of 13% in gross profit, contributing to 30.8% in total gross profit compared to Landscape and Outdoor plants.
+* Although orders for Outdoor plants increased by 14% and brought in $96k more in sales revenue, Indoor and Landscape plants declined by a combined 5% and resulted in a nearly $608k decline in sales revenue for 2023.
+* Plants in the Indoor category were least performing with a decline of 13% in gross profit, contributing to 30.8% in total gross profit compared to Landscape and Outdoor plants.
 
 <img src="images/Plant_Category_Analysis.png"/>
 
